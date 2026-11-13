@@ -13,10 +13,12 @@ protected:
     int maxSlots;
 
 public:
-    Tournament(string id, string t, int slots) : tournamentId(id), title(t), maxSlots(slots) {}
+    Tournament(string id, string t, int slots) 
+        : tournamentId(id), title(t), maxSlots(slots) {}
+    
     virtual ~Tournament() {}
 
-    // Pure Virtual Function untuk Polimorfisme skema turnamen
+    // Pure Virtual Function untuk Polimorfisme
     virtual void generateBracket() = 0;
     virtual void calculatePrizePool(long totalMoney) = 0;
 };
