@@ -133,7 +133,7 @@ int main() {
             }
 
         } else if (pilihan == 4) {
-            cout << "\nTerima kasih telah menggunakan program ini, bro!\n";
+            cout << "\nTerima kasih telah menggunakan program ini!\n";
         } else {
             cout << "[INFO] Pilihan tidak valid, coba lagi.\n";
         }
